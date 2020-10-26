@@ -17,9 +17,8 @@ lives = 10
 
 # Name
 # Inputs dont need to be cast to strings. They
-# come that way by default. They also
-# implicitly add a newline.
-name=input("What is your name?")
+# come that way by default. 
+name=input("What is your name?\n")
 
 # Including two examples here for reference:
 # These are the two ways to do easier string 
