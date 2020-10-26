@@ -4,10 +4,6 @@ from random import randint
 
 # Initial numbers
 
-randomNumber = 0
-wrongGuess = 0
-wrongGuess1 = 0
-
 points = 0
 
 lives = 10
@@ -40,4 +36,4 @@ while True:
         points = points + 1
         print("Total points: " + str(points) + "\n")
 
-print("Thank you for playing the game,", name + ".")
+print(f"You died with {points} points collected. Thank you for playing the game {name}.")
